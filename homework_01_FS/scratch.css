@@ -1,0 +1,10 @@
+h1 {
+  width: 255px;
+  margin: 0 auto 8px;
+  /* Замените значение свойства на "Georgia", serif */
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+}
