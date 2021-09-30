@@ -1,11 +1,47 @@
-h1 {
-  width: 255px;
-  margin: 0 auto 8px;
-  /* Замените значение свойства на "Georgia", serif */
-  font-family: "Arial", sans-serif;
-  text-align: center;
-  font-weight: normal;
-  font-size: 56px;
-  line-height: 64px;
-  color:red;
+.father{
+border: 5px solid red;
+position: relative;
+}
+
+.top{
+height: 80px;
+background: #2E8B57; border-bottom: 2px solid #7B5427;
+color:#FFFAFA;
+}
+.left{
+    float:left ;
+    color:#fff;
+    background-color: #2E8B57;
+    width:13%;
+    height: 740px;
+
+}
+.right{
+    float:right;
+    color:#fff;
+    background-color: red;
+    width:87%;
+    height: 740px;
+
+}
+.container {
+  color:#fff;
+      background-color: #2E8B57;
+}
+.right1{
+float:left;
+background-color: #2E8B57;
+width:100%;
+}
+.right111{
+float:left;
+background-color: #2E8B57;
+width:50%;
+height:80px;
+}
+.pops{
+float:left;
+background-color: #C0C0C0;
+width:33%;
+height:80px;
 }
