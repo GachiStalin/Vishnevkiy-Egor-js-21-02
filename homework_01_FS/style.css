@@ -1,5 +1,4 @@
 .father{
-border: 5px solid red;
 position: relative;
 }
 
@@ -10,38 +9,39 @@ color:#FFFAFA;
 }
 .left{
     float:left ;
-    color:#fff;
-    background-color: #2E8B57;
+    background-color:#D3D3D3;
     width:13%;
     height: 740px;
 
 }
 .right{
     float:right;
-    color:#fff;
-    background-color: red;
     width:87%;
     height: 740px;
+    background-color:#FFFFFF ;
 
 }
 .container {
-  color:#fff;
-      background-color: #2E8B57;
+      background-color:#D3D3D3;
 }
 .right1{
 float:left;
-background-color: #2E8B57;
+background-color:#FFFFFF ;
 width:100%;
+color:black;
 }
 .right111{
 float:left;
-background-color: #2E8B57;
-width:50%;
+background-color: #C0C0C0;
+width:49.7%;
 height:80px;
+border: 1px solid black;
 }
 .pops{
 float:left;
 background-color: #C0C0C0;
 width:33%;
 height:80px;
+color:black;
+border: 1px solid black;
 }
