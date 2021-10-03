@@ -29,7 +29,7 @@ height:10%;
 background-color: #D3D3D3;}
 
 #left{
-width:25%;
+width:240px;
 height:100%;
 margin-left:10px;
 background-color: #D3D3D3;
@@ -91,4 +91,11 @@ background-color:#808080;
 
 #tovar2{
 margin:15px;
+}
+
+@media (max-width: 519px) {
+
+#left {
+display:none;
+}
 }
