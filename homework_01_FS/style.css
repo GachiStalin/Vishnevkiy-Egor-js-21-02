@@ -1,0 +1,101 @@
+#father{
+height:900px;
+width:100%
+border: 1px solid black;
+display:flex;
+flex-direction: column;
+padding-left:300px;
+padding-right:300px;
+}
+
+#top{
+width:100%;
+height:10%;
+background-color: #2E8B57;
+color:#FFFAFA;}
+
+#center{
+width:100%;
+height:85%;
+padding-top: 10px;
+padding-bottom:10px;
+display:flex;
+flex-direction: row;
+}
+
+#bot{
+width:100%;
+height:10%;
+background-color: #D3D3D3;}
+
+#left{
+width:240px;
+height:100%;
+margin-left:10px;
+background-color: #D3D3D3;
+}
+
+#right{
+width:85%;
+height:100%;
+margin-left:10px;
+}
+
+#tt{
+width:100%;
+height:250px;
+
+}
+
+#ttt{
+display:flex;
+flex-direction: row;
+
+}
+
+#dva{
+padding-left:10px;
+width:50%;
+height:100px;
+background-color:#D3D3D3;
+margin-left:10px;
+}
+
+#pp{
+display:grid;
+grid-template-columns: repeat(3,auto);
+padding-top:20px;
+
+}
+
+#zag{
+width:100%;
+}
+
+#tovar{
+
+margin-left:10px;
+margin-top:20px;
+display:flex;
+flex-direction: row;
+background-color:#D3D3D3;
+}
+
+#tovar1{
+width:70px;
+height:70px;
+margin:15px;
+background-color:#808080;
+
+}
+
+#tovar2{
+margin:15px;
+}
+
+@media (max-width: 519px) {
+
+#left {
+display:none;
+}
+}
